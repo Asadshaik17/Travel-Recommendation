@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    align-content: center;
+    
+     
+}
+nav a:hover {
+    color: #3498DB;
+}
+
+nav {
+    background-color: #2C3E50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
