@@ -13,12 +13,14 @@
             <a href="contact_us.html">Contact Us</a>
         </div>
         <div id="Search">
-            <input id="searchField" type="text" placeholder="Search">
-            <button id="searchButton">Search</button>
-            <button id="searchButton">Clear</button>
+            <input id="searchField" type="text" placeholder="Keyword">
+            <button id="searchButton" onclick="search()">Search</button>
+            <button id="searchButton" onclick="clearSearch()">Clear</button>
         </div>    
     </nav>
+    
     <main>
+        
         <div class="hero-section">
             <div class="social-media">
                 <a href="#"><img src="https://img.icons8.com/?size=100&id=102907&format=png&color=FFFFFF" alt="Twitter"> <!-- Add Twitter icon link --></a>
@@ -31,6 +33,9 @@
                 <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
                 <a href="#" class="btn">Book Now</a>
             </div>
+        </div>
+        <div id="searchResults"></div>
+    
         </div>
     </main>
     <script src="travel_recommendation.js"></script>

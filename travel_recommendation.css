@@ -224,3 +224,27 @@ nav {
 .contact-form button:hover {
     background-color: #0084cc;
 }
+
+/* search Results*/
+
+.resultimg {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#searchResults {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+
+}
