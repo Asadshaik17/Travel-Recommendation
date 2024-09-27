@@ -47,7 +47,7 @@ nav {
     font-size: 1rem;
 }
 .hero-section {
-    background: url('./chicago-travel_4x3.avif') no-repeat center center/cover; /* Add your background image URL */
+    background: url('./chicago-travel_4x3.png') no-repeat center center/cover; /* Add your background image URL */
     height: 100vh;
     color: #fff;
     position: relative;
